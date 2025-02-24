@@ -1,0 +1,8 @@
+-> Upload the project on GitHub and maintain the git commit history.
+-> Regular commit something in it.
+-> create simple projects.
+-> Hotel Management system
+-> News using API
+-> chatbot
+-> Automated Preprocessing system
+-> python development projects.

@@ -1,0 +1,4 @@
+Flask is a lightweight web framework for Python. Flask is easy to learn and widely used. 
+With Flask, you can build web applications quickly and efficiently. 
+Python is a powerful programming language, and Flask makes web development simple.
+Flask is minimalistic but powerful!

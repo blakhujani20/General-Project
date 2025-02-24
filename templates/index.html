@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text File Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function updateSliderValue(val) {
+            document.getElementById("sliderValue").innerText = val;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload a Text File</h2>
+        
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required><br><br>
+
+            <label for="word_limit">Number of Frequent Words: <span id="sliderValue">10</span></label>
+            <input type="range" id="word_limit" name="word_limit" min="1" max="50" value="10" oninput="updateSliderValue(this.value)">
+            
+            <button type="submit">Analyze</button>
+        </form>
+
+        {% if num_words %}
+            <h3>Text Analysis Results</h3>
+            <p><strong>Total Words:</strong> {{ num_words }}</p>
+            <p><strong>Total Characters:</strong> {{ num_chars }}</p>
+            
+            <h3>Top {{ word_counts|length }} Frequent Words</h3>
+            <ul>
+                {% for word, count in word_counts %}
+                    <li>{{ word }}: {{ count }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>

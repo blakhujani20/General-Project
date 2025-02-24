@@ -1,0 +1,24 @@
+-> Sign language recognition : git_link https://github.com/themaverick/sign-language-recognition
+-> Retinal Image Analysis
+-> Face Detection and Attendance system
+-> Generative AI Agents
+-> RAG system
+-> Fine tuning of Model
+-> Recommendation system
+-> Auto ML system
+-> My portfolio
+-> Some Cloud Projects
+-> SQL projects
+-> Trading Algorithmic projects (Cryptography like)
+-> Personal Advisor
+-> Speech Understanding projects
+-> Data analysis and Visualization projects
+-> Toxic Comment classification
+-> Bitcoin prediction
+-> Medical Report analysis
+-> Object in videos
+-> Hotel Management system
+-> News using API
+-> chatbot
+-> Automated Preprocessing system
+-> python development projects.
